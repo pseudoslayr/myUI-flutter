@@ -6,7 +6,7 @@ class FirstScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
+        centerTitle: false,
         title: Text("Hello World"),
       ),
       floatingActionButton: GestureDetector(

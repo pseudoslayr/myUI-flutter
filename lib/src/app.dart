@@ -17,18 +17,21 @@ class App extends StatelessWidget {
           ),
         ),
         appBarTheme: AppBarTheme(
-          elevation: 1,
+          elevation: 0,
           textTheme: TextTheme(
             headline6: TextStyle(
               color: Color(0xff372549),
-              fontSize: 18,
-              fontWeight: FontWeight.w600,
+              fontSize: 24,
+              fontWeight: FontWeight.w900,
             ),
+          ),
+          iconTheme: IconThemeData(
+            color: Color(0xFFb75d69),
           ),
         ),
       ),
       dark: ThemeData(
-        primaryColor: Color(0xFF291B36),
+        primaryColor: Color(0xFF1a1423),
         accentColor: Color(0xFFb75d69),
         scaffoldBackgroundColor: Color(0xFF1a1423),
         textTheme: TextTheme(
@@ -38,13 +41,16 @@ class App extends StatelessWidget {
           ),
         ),
         appBarTheme: AppBarTheme(
-          elevation: 5,
+          elevation: 0,
           textTheme: TextTheme(
             headline6: TextStyle(
               color: Color(0xFFedddd4),
-              fontSize: 18,
-              fontWeight: FontWeight.w600,
+              fontSize: 24,
+              fontWeight: FontWeight.w900,
             ),
+          ),
+          iconTheme: IconThemeData(
+            color: Color(0xFFb75d69),
           ),
         ),
       ),
